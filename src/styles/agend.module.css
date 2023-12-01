@@ -1,0 +1,128 @@
+.divM{
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 9px;
+    width: 100%;
+    row-gap: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+    
+}
+
+.divMaster{
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 9px;
+    width: 100%;
+    row-gap: 25px;
+}
+
+.divM:hover{  
+    box-shadow: inset 0 0 20px rgba(10, 99, 94, 0);
+    box-shadow: inset 0 0 20px rgba(10, 99, 94, 0.274);
+}
+
+.subDiv{
+    display: flex;
+    flex-direction: row;   
+    column-gap: 15px;
+    border-bottom: 1px solid #444444;   
+}
+
+.subDivBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: flex-end;
+    column-gap: 15px;     
+}
+
+.imput{
+    border: none;
+    background-color: transparent;
+    color: #47cebf;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+    pointer-events: none;
+    width: 100%;
+}
+
+.spanImp{
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1em;
+}
+
+.btnL{
+    border: 1px solid #d11316;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 2px 0 2px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.btnL:hover{
+    border: 1px solid #d11316;
+    box-shadow: inset 0 0 20px rgba(209, 19, 22, 0.5);
+}
+
+.btnLL{
+    border: 1px solid #d11316;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 2px 0 2px;
+    cursor: pointer;    
+}
+
+.btnLL:hover{
+    border: 1px solid #d11316;
+    box-shadow: inset 0 0 20px rgba(209, 19, 22, 0.5);
+}
+
+.btnU{
+    border: 1px solid #4c8a08;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 2px 0 2px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.btnU:hover{
+    border: 1px solid #4c8a08;
+    box-shadow: inset 0 0 20px rgba(76, 138, 8, 0.5);
+}
+
+.btnUU{
+    border: 1px solid #4c8a08;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 2px 0 2px;
+    cursor: pointer;
+}
+
+.btnUU:hover{
+    border: 1px solid #4c8a08;
+    box-shadow: inset 0 0 20px rgba(76, 138, 8, 0.5);
+}
+
+.btnD{
+    border: 1px solid #47cebf;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 2px 2px 0 2px;
+    cursor: pointer;
+}
+
+.btnD:hover{
+    border: 1px solid #47cebf;
+    box-shadow: inset 0 0 20px rgba(71, 206, 191, 0.5);
+}
